@@ -8,7 +8,7 @@
 
 - `.env` の作成  
 `cp .devcontainer/.env.example .devcontainer/.env`
-- `VSCode` にて [Dev Container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) をインストール
+- `VSCode` にて [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) をインストール
 - Dev Container の起動  
 `shift` + `ctrl` + `P` で `Dev Containers: Rebuild and Reopen in Container` を実行
 
