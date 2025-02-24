@@ -5,7 +5,7 @@
 	// importの整理等を行う場合は以下を有効にする
 	// "editor.codeActionsOnSave": {
 	// 	"source.fixAll.biome": "explicit",
+	// 	"source.organizeImports.biome": "explicit",
 	// 	"source.addMissingImports.ts": "explicit",
-	// 	"source.organizeImports": "explicit"
 	// }
 }
