@@ -8,11 +8,19 @@
 
 - `.env` の作成  
 `cp .devcontainer/.env.example .devcontainer/.env`
+
 - `VSCode` にて [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) をインストール
+
 - Dev Container の起動  
 `shift` + `ctrl` + `P` で `Dev Containers: Rebuild and Reopen in Container` を実行
 
+- Bun の実行確認  
+`bun -v`
+
 ### 初回だけ以下を実行してください。
+
+- 依存関係のインストール  
+`bun install`
 
 - GitHook の作成  
 `bunx lefthook install`
