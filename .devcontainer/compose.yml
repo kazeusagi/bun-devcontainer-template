@@ -1,9 +1,0 @@
-services:
-  app:
-    env_file: .env
-    build:
-      context: .
-      dockerfile: Dockerfile.bun
-    volumes:
-      - ../:/home/user/app
-    tty: true
