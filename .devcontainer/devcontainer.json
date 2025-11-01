@@ -4,11 +4,15 @@
   "runArgs": [
     "--env-file=.devcontainer/.env"
   ],
+  "initializeCommand": "./.devcontainer/initializeCommand.sh",
   "remoteUser": "bun",
   "workspaceFolder": "/home/bun/app",
   "mounts": [
     "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind"
   ],
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {} // sudo, git, etc
+  },
   "customizations": {
     "vscode": {
       "extensions": [
